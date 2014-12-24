@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="ClickableViewAccessibility">
+        <ignore path="src/com/example/guaguacardpoj/GuaGuaView.java" />
+    </issue>
+    <issue id="DrawAllocation">
+        <ignore path="src/com/example/guaguacardpoj/GuaGuaView.java" />
+    </issue>
+</lint>

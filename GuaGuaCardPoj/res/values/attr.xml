@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    
+    <attr name="text" format="string"/>
+    <attr name="textSize" format="dimension"/>
+    <attr name="textColor" format="color"/>
+    <!-- 遮罩层图片 -->
+    <attr name="layerPic" format="reference"/>
+    <!-- 背景图片 -->
+    <attr name="bgPic" format="reference"/>
+    <!-- 刮痕大小 -->
+    <attr name="guaSize" format="dimension"/>
+    <!-- 完成百分比 -->
+    <attr name="percent" format="integer"/>
+
+    <declare-styleable name="guaguaCard">
+        <attr name="text"/>
+        <attr name="textSize"/>
+        <attr name="textColor"/>
+        <!-- 遮罩层图片 -->
+        <attr name="layerPic"/>
+        <!-- 背景图片 -->
+        <attr name="bgPic"/>
+        <!-- 刮痕大小 -->
+        <attr name="guaSize"/>
+        <!-- 完成百分比 -->
+        <attr name="percent"/>
+    </declare-styleable>
+
+</resources>

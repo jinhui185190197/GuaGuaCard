@@ -1,0 +1,19 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:jim="http://schemas.android.com/apk/res/com.example.guaguacardpoj"
+    
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <com.example.guaguacardpoj.GuaGuaView 
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        jim:text = "恭喜中奖"
+        jim:textSize = "30sp"
+        jim:textColor = "#aa0000"
+        jim:percent = "30"
+        
+        />
+
+</RelativeLayout>
